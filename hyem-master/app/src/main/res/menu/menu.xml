@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search2"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/action_member"
+        android:icon="@drawable/icon_person"
+        android:title="Member"
+        app:showAsAction="always" />
+    <group >
+        <item android:title="즐겨찾기" />
+        <item android:title="회원관리" />
+        <item android:title="모임설정" />
+        <item android:title="모임해제" />
+    </group>
+
+</menu>
